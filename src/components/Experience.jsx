@@ -1,72 +1,106 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-
+import java from "../assets/java.png"
+import mysql from "../assets/mysql.png"
+import springboot from "../assets/springboot.png"
+import react from "../assets/react.png"
+import hibernate from "../assets/hibernate.png"
+import postman from "../assets/postman.png"
+import vscode from "../assets/vscode.png"
+import intellj from '../assets/intellj.png'
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
+      src: java,
+      title: "Java",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
+      src: springboot,
+      title: "Spring Boot",
       style: "shadow-blue-500",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-gray-400",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: hibernate,
+      title: "Hibernate",
+      style: "shadow-yellow-500",
     },
     {
       id: 5,
+      src: github,
+      title: "GitHub",
+      style: "shadow-white",
+    },
+    {
+      id: 6,
+      src: html,
+      title: "HTML",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 7,
+      src: css,
+      title: "CSS",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 8,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
+      id: 9,
+      src: javascript,
+      title: "Javascript",
       style: "shadow-pink-400",
     },
     {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      id: 10,
+      src: react,
+      title: "React",
+      style: "shadow-blue-600",
     },
+    {
+      id: 11,
+      src: postman,
+      title: "Postman",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 12,
+      src: vscode,
+      title: "VS code",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 13,
+      src: intellj,
+      title: "intellij ",
+      style: "shadow-sky-400",
+    },
+
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full  "
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full  text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience

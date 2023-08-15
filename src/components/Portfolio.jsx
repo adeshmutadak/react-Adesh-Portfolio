@@ -1,43 +1,40 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import project1 from "../assets/portfolio/project1.jpeg"
+import project2 from "../assets/portfolio/project2.jpeg"
+import project3 from "../assets/portfolio/project3.jpeg"
+import project4 from "../assets/portfolio/project4.jpeg"
+import project5 from "../assets/portfolio/project5.jpeg"
+
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: project1,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: project2,
     },
     {
       id: 3,
-      src: navbar,
+      src: project3,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: project4,
     },
     {
       id: 5,
-      src: installNode,
+      src: project5,
     },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white py-10 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -53,14 +50,14 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-1000"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  Check on GitHub
                 </button>
               </div>
             </div>

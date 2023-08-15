@@ -12,25 +12,12 @@ const About = () => {
             About
           </p>
         </div>
-
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl mt-10">
+        I am a recent 2022 graduate, enthusiastic about becoming a proficient Full Stack Java developer. My experience encompasses a range of projects, notably the Library Management System and successful creation of REST APIs. Proficiency in Java, Spring Boot, Hibernate, and Rest APIs underscores my technical skills, while my commitment to problem-solving is evident through my achievement of solving over 300 coding questions on platforms like Geekster and LeetCode. My skill set extends beyond the technical , encompassing creative thinking, collaborative teamwork, and leadership .
         </p>
-
         <br />
-
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        One of my standout projects includes the collaborative development of a Library Management System, demonstrating my knack for creating user-friendly solutions. Additionally, I've spearheaded the creation of robust REST APIs, showcasing my proficiency in facilitating smooth data exchange between applications.
         </p>
       </div>
     </div>
